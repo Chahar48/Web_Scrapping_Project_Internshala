@@ -36,7 +36,7 @@ Loaded all essential Python libraries needed for HTTP requests, parsing HTML, an
 2.	Define Search Query
 User inputs a search keyword (e.g., "Data Science") to scrape internships related to that domain.
 3.	Construct URL and Handle Pagination
-Used the search term to dynamically build URLs on Internshala (e.g., https://internshala.com/internships/keywords-data-science) and iterate through multiple pages of results.
+Used the search term to dynamically build URLs on Internshala (e.g., https://internshala.com/internships) and iterate through multiple pages of results.
 4.	Send HTTP Requests
 Employed the requests library to fetch the HTML content from Internshala pages.
 5.	Parse HTML Using BeautifulSoup
